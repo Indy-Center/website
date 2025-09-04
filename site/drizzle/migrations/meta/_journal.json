@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1756933589013,
+      "tag": "0000_wonderful_jubilee",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1756935792904,
+      "tag": "0001_yellow_imperial_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1756940240432,
+      "tag": "0002_bouncy_ronan",
+      "breakpoints": true
+    }
+  ]
+}
