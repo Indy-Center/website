@@ -4,6 +4,8 @@
 	import IconHome from '~icons/mdi/home';
 	import IconAccountGroup from '~icons/mdi/account-group';
 	import IconCog from '~icons/mdi/cog';
+	import IconCalendar from '~icons/mdi/calendar';
+	
 	let { data } = $props();
 
 	const BASE_LINKS = [
@@ -11,6 +13,11 @@
 			label: 'Home',
 			href: '/',
 			icon: IconHome
+		},
+		{
+			label: 'Events',
+			href: '/events',
+			icon: IconCalendar
 		},
 		{
 			label: 'Roster',

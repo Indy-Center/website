@@ -19,7 +19,7 @@
 			"services": [{ "binding": "WEBSITE", "service": "website" }],
 
 			"triggers": {
-				"crons": ["0-59/5 * * * *"]
+				"crons": ["2-59/5 * * * *"]
 			}
 		},
 		"process-roster": {
@@ -29,7 +29,7 @@
 			"services": [{ "binding": "WEBSITE", "service": "website" }],
 
 			"triggers": {
-				"crons": ["1-59/5 * * * *"]
+				"crons": ["0-59/5 * * * *"]
 			}
 		},
 		"process-certificates": {
@@ -38,7 +38,7 @@
 			},
 			"services": [{ "binding": "WEBSITE", "service": "website" }],
 			"triggers": {
-				"crons": ["2-59/5 * * * *"]
+				"crons": ["1-59/5 * * * *"]
 			}
 		}
 	}

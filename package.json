@@ -1,0 +1,29 @@
+{
+	"name": "indy-center-website",
+	"private": true,
+	"version": "0.0.1",
+	"workspaces": [
+		"site",
+		"task-runners"
+	],
+	"scripts": {
+		"dev": "npm run dev --workspace=site",
+		"dev:site": "npm run dev --workspace=site",
+		"dev:tasks": "npm run dev --workspace=task-runners",
+		"build": "npm run build --workspace=site",
+		"build:site": "npm run build --workspace=site",
+		"preview": "npm run preview --workspace=site",
+		"deploy": "npm run deploy --workspace=site && npm run deploy --workspace=task-runners",
+		"deploy:site": "npm run deploy --workspace=site",
+		"deploy:tasks": "npm run deploy --workspace=task-runners",
+		"deploy:sync-memberships": "wrangler deploy --env sync-memberships --config task-runners/wrangler.jsonc",
+		"deploy:process-roster": "wrangler deploy --env process-roster --config task-runners/wrangler.jsonc", 
+		"deploy:process-certificates": "wrangler deploy --env process-certificates --config task-runners/wrangler.jsonc",
+		"lint": "npm run lint --workspace=site",
+		"format": "npm run format --workspace=site",
+		"check": "npm run check --workspace=site",
+		"db:push": "npm run db:push --workspace=site",
+		"db:migrate": "npm run db:migrate --workspace=site",
+		"db:studio": "npm run db:studio --workspace=site"
+	}
+}

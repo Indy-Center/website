@@ -17,7 +17,7 @@ const getCertifications = (ratingShort: string): string[] => {
 		case 'S1':
 			return ['DEL', 'S-GND']; // Updated per your requirements
 		case 'S2':
-			return ['DEL', 'S-GND', 'A-GND', 'S-TWR'];
+			return ['DEL', 'S-GND', 'A-GND', 'S-TWR', 'A-TWR'];
 		case 'S3':
 			return ['DEL', 'S-GND', 'A-GND', 'S-TWR', 'A-TWR', 'APR'];
 		case 'C1':
