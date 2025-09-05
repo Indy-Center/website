@@ -27,19 +27,11 @@
 			<a
 				href="https://discord.indy.center"
 				target="_blank"
-				class="flex items-center justify-center space-x-2 rounded bg-sky-600 px-4 py-2 font-bold text-white shadow-lg hover:bg-sky-700"
+				class="flex items-center justify-center space-x-2 rounded bg-indigo-600 px-4 py-2 font-bold text-white shadow-lg hover:bg-indigo-700 transition-colors duration-200"
 			>
 				<IconDiscord class="h-4 w-4" />
-				<span>Join our Community</span>
+				<span>Get Connected on Discord</span>
 			</a>
-			{#if !data.user}
-				<a
-					href="/login/connect"
-					class="rounded border border-gray-600 bg-gray-700 px-4 py-2 text-white transition-colors hover:border-sky-400 hover:bg-gray-600"
-				>
-					Connect Your VATSIM Account
-				</a>
-			{/if}
 		</div>
 	</PageHero>
 	<!-- Events Section -->
